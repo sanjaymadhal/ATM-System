@@ -6,7 +6,7 @@ import os
 clear = lambda: os.system('cls')
 clear()
 
-print("\n                 ~~~~~~~~~~Welcome~~~~~~~~~~\n\n")
+print("\n~~~~~~~~~~Welcome~~~~~~~~~~\n\n")
 t.sleep(1)
 
 #Balance as m
@@ -29,11 +29,11 @@ if(p == 1234):
     clear = lambda: os.system('cls')
     clear()
     if(A == 1):
-        print("\n                 ~~~~~~Savings Account~~~~~~")
+        print("\n~~~~~~Savings Account~~~~~~")
     elif(A == 2):
-        print("\n                 ~~~~~~Current Account~~~~~~")
+        print("\n~~~~~~Current Account~~~~~~")
     else:
-        print("\n\n                 ~~~~Invalid Account type~~~~")        
+        print("\n\n~~~~Invalid Account type~~~~")        
     
     
     #Choices
@@ -58,18 +58,18 @@ if(p == 1234):
             clear = lambda: os.system('cls')
             clear()
             t.sleep(1)
-            print("\n                 ~~~Transaction Successfull~~~\n")
+            print("\n~~~Transaction Successfull~~~\n")
             t.sleep(1)
-            print("\n                 ~~~Please Collect your Cash and Card~~~\n")
+            print("\n~~~Please Collect your Cash and Card~~~\n")
             t.sleep(1)
-            print("\n                 Your Available Balance is:", m-w)
+            print("\nYour Available Balance is:", m-w)
             t.sleep(1)
-            print("\n\n                 ~~~Thank You Visit Again~~~\n")
+            print("\n\n~~~Thank You Visit Again~~~\n")
         else:
             t.sleep(1)
             clear = lambda: os.system('cls')
             clear()
-            print("\n                 ~~Entered Amount Unavailable~~\n")
+            print("\n~~Entered Amount Unavailable~~\n")
     
     
     #Balance Enquiry Condition
@@ -93,55 +93,55 @@ if(p == 1234):
             clear = lambda: os.system('cls')
             clear()
             t.sleep(1)
-            print("\n                 ~~~Transaction Successfull~~~\n")
+            print("\n~~~Transaction Successfull~~~\n")
             t.sleep(1)
-            print("\n                 ~~~Please Collect your Cash and Card~~~\n")
+            print("\n~~~Please Collect your Cash and Card~~~\n")
             t.sleep(1)
-            print("\n                 Your Available Balance is:", m-f)
+            print("\nYour Available Balance is:", m-f)
             t.sleep(1)
-            print("\n\n                 ~~~Thank You Visit Again~~~\n")
+            print("\n\n~~~Thank You Visit Again~~~\n")
         #If required amount is 10000
         elif(f == 10000 and 10000<m):
             clear = lambda: os.system('cls')
             clear()
             t.sleep(1)
-            print("\n                 ~~~Transaction Successfull~~~\n")
+            print("\n~~~Transaction Successfull~~~\n")
             t.sleep(1)
-            print("\n                 ~~~Please Collect your Cash and Card~~~\n")
+            print("\n~~~Please Collect your Cash and Card~~~\n")
             t.sleep(1)
-            print("\n                 Your Available Balance is:", m-f)
+            print("\nYour Available Balance is:", m-f)
             t.sleep(1)
-            print("\n\n                 ~~~Thank You Visit Again~~~\n")                  
+            print("\n\n~~~Thank You Visit Again~~~\n")                  
         #If required amount is 15000
         elif(f == 15000 and 15000<m):
             clear = lambda: os.system('cls')
             clear()
             t.sleep(1)
-            print("\n                 ~~~Transaction Successfull~~~\n")
+            print("\n~~~Transaction Successfull~~~\n")
             t.sleep(1)
-            print("\n                 ~~~Please Collect your Cash and Card~~~\n")
+            print("\n~~~Please Collect your Cash and Card~~~\n")
             t.sleep(1)
-            print("\n                 Your Available Balance is:", m-f)
+            print("\nYour Available Balance is:", m-f)
             t.sleep(1)
-            print("\n\n                 ~~~Thank You Visit Again~~~\n")                  
+            print("\n\n~~~Thank You Visit Again~~~\n")                  
         #If required amount is 20000
         elif(f == 20000 and 20000<m):
             clear = lambda: os.system('cls')
             clear()
             t.sleep(1)
-            print("\n                 ~~~Transaction Successfull~~~\n")
+            print("\n~~~Transaction Successfull~~~\n")
             t.sleep(1)
-            print("\n                 ~~~Please Collect your Cash and Card~~~\n")
+            print("\n~~~Please Collect your Cash and Card~~~\n")
             t.sleep(1)
-            print("\n                 Your Available Balance is:", m-f)
+            print("\nYour Available Balance is:", m-f)
             t.sleep(1)
-            print("\n\n                 ~~~Thank You Visit Again~~~\n")
+            print("\n\n~~~Thank You Visit Again~~~\n")
         #If required amount is Invalid
         else:
             clear = lambda: os.system('cls')
             clear()
             t.sleep(1)
-            print("                 ~~Invalid Fast Cash Amount~~")
+            print("~~Invalid Fast Cash Amount~~")
     
     
     #Change Pinn Condition
@@ -156,10 +156,10 @@ if(p == 1234):
                 print("\n                 ~~~Try Again Your Old Pin is Similar~~~\n")
             else:
                 t.sleep(1)
-                ("                 ~~~~Pin Changed Successfully~~~~")    
+                ("~~~~Pin Changed Successfully~~~~")    
         else:
             t.sleep(1)
-            print("                 ~~Wrong Pin~~")
+            print("~~Wrong Pin~~")
     
 
     #Exit Condition
@@ -169,18 +169,18 @@ if(p == 1234):
         t.sleep(0.5)
         print("Exiting...\n")
         t.sleep(0.5)
-        print("\n\n                 ~~~Thank You Visit Again~~~\n")
+        print("\n\n~~~Thank You Visit Again~~~\n")
         exit()
 
 
     #If the entered choice is Wrong
     else:
         t.sleep(1)
-        print("\n\n                 ~~~~Wrong Choice~~~~\n\n")        
+        print("\n\n~~~~Wrong Choice~~~~\n\n")        
 
 
 #If the entered Pin is wrong 
 else:
     t.sleep(1)
-    print("\n\n                 ~~~~Wrong Pin Number~~~~")                                      
-    print("\n                 ~~~~TRY-AGAIN~~~~\n\n")                                      
+    print("\n\n~~~~Wrong Pin Number~~~~")                                      
+    print("\n~~~~TRY-AGAIN~~~~\n\n")                                      
